@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Inter';
+}
+
+body { 
+    margin: 0 auto;
+} 
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white; 
+    background-color: #308503; 
+    padding: 20px; 
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.header button {
+    padding: 10px; 
+    border: 2PX solid black; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 5px 5px black;
+} 
+
+.header #logout {
+    color: white;
+    background: red;
+    margin-left: 10px;
+} 
+
+div .right {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-box {
+    border: 2px solid black;
+    color: #308503;
+    font-weight: bold;
+    background: rgb(251, 347, 131);
+    background: linear-gradient(0deg, rgba(251, 247, 13, 1) 31%, rgba(255, 148, 0, 1) 75%);
+    font-size: 24px;
+    height: 100px;
+    width: 200px;
+    box-shadow: 5px 10px grey;
+}
+
+.btn-box:hover {
+    background: #308503;
+    color: white;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.message h2 {
+    color: white;
+    background: #308503;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 52px;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}

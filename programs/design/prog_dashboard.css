@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f8f9fa; 
+    margin: 0 auto;
+} 
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white; 
+    background-color: #308503;
+    padding: 25px;
+} 
+
+.header button {
+    padding: 10px; 
+    border: 2PX solid black; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 5px 5px black;
+} 
+
+.header #back {
+    color: white;
+    background-color: lightsalmon;
+}
+
+.header #add {
+    color: white;
+    margin-left: 10px;
+    background-color: orange; 
+}
+ 
+.header #logout {
+    color: white;
+    margin-left: 10px;
+    background-color: red; 
+} 
+
+.container { 
+    margin: 0 auto;
+}
+
+ table { 
+    width: 100%; 
+    margin-bottom: 1rem;
+} 
+
+th, td { 
+    padding: 10px; 
+    text-align: center; 
+    vertical-align: top; 
+} 
+
+th { 
+    color: white; 
+    background-color: #308503; 
+} 
+
+.actions button { 
+    border: none; 
+    background: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+} 
+
+.actions img { 
+    width: 20px; 
+    height: 20px; 
+}
+
+div .right {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
